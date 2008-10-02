@@ -41,8 +41,6 @@ spec = Gem::Specification.new do |s|
 		"README", 
 		"Rakefile", 
 		"dm-adapter-simpledb.gemspec"]
-  s.test_files = ["spec/simpledb_adapter_spec.rb", 
-      "spec_helper.rb"]
   s.rdoc_options = ["--main", "README.txt"]
   s.extra_rdoc_files = ["README.txt"]
   s.add_dependency("rspec", ["> 0.0.0"])
